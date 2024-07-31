@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <nav class="navbar">
+    <nav class="navbar" onclick="toggleMenu()">
         <div class="logo">
             <img src="/assets/black-logo.png" alt="Logo" class="logo-black">
             <img src="/assets/white-logo.png" alt="Logo" class="logo-white">
@@ -19,15 +19,33 @@
             <div class="line middle"></div>
             <div class="line bottom"></div>
         </div>
+        <div class="menu" id="menu">
+            <ul>
+                <li><a href="#section1">Section 1</a></li>
+                <li><a href="#section2">Section 2</a></li>
+                <li><a href="#section3">Section 3</a></li>
+                <li><a href="#section4">Section 4</a></li>
+                <li><a href="#section5">Section 5</a></li>
+                <li><a href="#section6">Section 6</a></li>
+            </ul>
+        </div>
     </nav>
-    <section class="section1">
-        <div class="section1-content">
+    <section id="section1" class="section">
+        <div class="section-content">
             <h3>Heading</h3>
             <h1 class="introduction">Introduction</h1>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo aliquam amet,
                 laboriosam sint eveniet praesentium delectus vitae molestias eos aliquid ullam optio
-                voluptatem mollitia soluta exercitationem doloremque dicta consectetur repellendus. </p>
+                voluptatem mollitia soluta exercitationem doloremque dicta consectetur repellendus.</p>
         </div>
     </section>
+    <section id="section2" class="section">Section 2 Content</section>
+    <section id="section3" class="section">Section 3 Content</section>
+    <section id="section4" class="section">Section 4 Content</section>
+    <section id="section5" class="section">Section 5 Content</section>
+    <section id="section6" class="section">Section 6 Content</section>
+
+    <script src="script.js"></script>
 </body>
+
 </html>
